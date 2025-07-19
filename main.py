@@ -43,9 +43,6 @@ def main():
                     shot.kill()
                     asteroid.split()
                     break
-            else:
-                continue
-            break
         for object in drawable:
             object.draw(screen)
         pygame.display.flip()
